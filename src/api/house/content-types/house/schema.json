@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "houses",
+  "info": {
+    "singularName": "house",
+    "pluralName": "houses",
+    "displayName": "Houses",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "house_id": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "price": {
+      "type": "biginteger",
+      "required": true
+    },
+    "bedrooms": {
+      "type": "integer"
+    },
+    "bathrooms": {
+      "type": "integer"
+    },
+    "sqft_living": {
+      "type": "integer"
+    },
+    "sqft_lot": {
+      "type": "integer"
+    },
+    "floors": {
+      "type": "float"
+    },
+    "waterfront": {
+      "type": "boolean"
+    },
+    "view": {
+      "type": "integer"
+    },
+    "condition": {
+      "type": "integer"
+    },
+    "grade": {
+      "type": "integer"
+    },
+    "sqft_above": {
+      "type": "integer"
+    },
+    "sqft_basement": {
+      "type": "integer"
+    },
+    "yr_built": {
+      "type": "integer"
+    },
+    "yr_renovated": {
+      "type": "integer"
+    },
+    "zipcode": {
+      "type": "integer"
+    },
+    "lat": {
+      "type": "float"
+    },
+    "long": {
+      "type": "float"
+    },
+    "sqft_living15": {
+      "type": "integer"
+    },
+    "sqft_lot15": {
+      "type": "integer"
+    }
+  }
+}
