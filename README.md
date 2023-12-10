@@ -1,6 +1,24 @@
-# 🚀 Getting started with Strapi
+# # House Price Prediction
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+## Aim of the Project
+
+The aim of this project is to develop a house price prediction system that can be used by real estate agents and individuals to get an estimate of the price of a house. The system will be developed using a machine learning model that will be trained on a dataset of house prices in the United States. The model will be trained using the Linear Regression algorithm.
+
+### Dataset
+
+The dataset used for this project is the [House Sales in King County, USA](https://www.kaggle.com/harlfoxem/housesalesprediction) dataset from Kaggle. The dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. It has 19 house features plus the price and the id columns, along with 21613 observations.
+
+### Machine Learning Model
+
+The machine learning model used for this project is the Linear Regression algorithm. Linear regression is a linear approach to modelling the relationship between a scalar response and one or more explanatory variables. The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is called multiple linear regression. This term is distinct from multivariate linear regression, where multiple correlated dependent variables are predicted, rather than a single scalar variable.
+
+## Backend
+
+Welcome to the backend of our House Price Prediction project to developed for Bogazici University MIS 463 - Decision Support Systems course. This section provides a comprehensive overview of the technologies and features implemented in the backend to ensure a seamless and user-friendly experience.
+
+### Technologies
+
+The backend is built using the Strapi framework. Strapi is an open-source headless CMS that is based on Node.js. It is highly customizable and extensible using a plugin system. It also provides a powerful CLI that allows you to build, deploy and scale your applications easily. Strapi is built on top of Koa, a Node.js web framework, and it uses SQLite as a data store.
 
 ### `develop`
 
@@ -32,26 +50,7 @@ npm run build
 yarn build
 ```
 
-## ⚙️ Deployment
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+## Frontend
 
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+You can find the frontend of the project in the following repository: [DSS-Frontend](https://github.com/senaoz/dss-frontend)
