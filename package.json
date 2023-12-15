@@ -10,12 +10,15 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@chartbrew/plugin-strapi": "^0.6.0",
     "@strapi/plugin-cloud": "4.15.5",
     "@strapi/plugin-i18n": "4.15.5",
     "@strapi/plugin-users-permissions": "4.15.5",
     "@strapi/strapi": "4.15.5",
+    "@tensorflow/tfjs-node": "^4.15.0",
     "better-sqlite3": "8.6.0",
+    "ml-regression": "^5.0.0",
+    "pandas-js": "^0.2.4",
+    "python-shell": "^5.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
