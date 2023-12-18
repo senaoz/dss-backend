@@ -4,6 +4,11 @@
 
 The aim of this project is to develop a house price prediction system that can be used by real estate agents and individuals to get an estimate of the price of a house. The system will be developed using a machine learning model that will be trained on a dataset of house prices in the United States. The model will be trained using the Linear Regression algorithm.
 
+
+## [Project Report](https://drive.google.com/file/d/1i7exMdkQ9jYTcxa_U-9_5oSwovDCF-Ub/view?usp=sharing)
+
+[The project report](https://drive.google.com/file/d/1i7exMdkQ9jYTcxa_U-9_5oSwovDCF-Ub/view?usp=sharing) provides a comprehensive overview of the project.
+
 ### Dataset
 
 The dataset used for this project is the [House Sales in King County, USA](https://www.kaggle.com/harlfoxem/housesalesprediction) dataset from Kaggle. The dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. It has 19 house features plus the price and the id columns, along with 21613 observations.
